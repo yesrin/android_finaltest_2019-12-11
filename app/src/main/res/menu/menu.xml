@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inputc"
+        android:title="input"/>
+    <item
+        android:id="@+id/stylec"
+        android:title="style">
+        <menu>
+            <group>
+            <item
+                android:id="@+id/menubold"
+                android:title="Bold"/>
+            <item
+                android:id="@+id/menultalic"
+                android:title="Italic"/>
+            <item
+                android:id="@+id/menunomal"
+                android:title="Nomal"/>
+            </group>
+        </menu>
+    </item>
+</menu>
